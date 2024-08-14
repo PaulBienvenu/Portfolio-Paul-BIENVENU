@@ -1,0 +1,70 @@
+.infography{
+    background: $primaryGreen;
+    display: flex;
+    align-items: center;
+}
+.infography h2{
+    color: $secondaryGreen;
+}
+.infography p{
+    color: $primaryTan;
+}
+
+.infography__left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+}
+.infography__left img{
+    width: 250px;
+}
+
+.infography__right{
+    padding: 100px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media screen and (max-width:1720px) {
+    .infography__left img{
+        width: 200px;
+    }
+    .infography__left{
+        width: 600px;
+    }
+    .infography h2{
+        font-size: 8rem;
+    }
+    .infography__right{
+        width: 650px;
+    }
+}
+@media screen and (max-width:1220px) {
+    .infography{
+        flex-direction: column-reverse;
+    }
+    .infography__left{
+        width: 100%;
+    }
+    .infography__left img{
+        display:block;
+        width:16.6666666667%;
+    }
+    .infography__right{
+        align-items: center;
+        text-align: center;
+    }
+    .infography h2{
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .infography__right{
+        width: 100%;
+    }
+    .infography p{
+        padding: 0px 25px;
+    }
+}

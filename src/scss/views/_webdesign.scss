@@ -1,0 +1,80 @@
+.webdesign{
+    padding: 100px;
+    background: $primaryGreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.webdesign h2{
+    color: $secondaryGreen;
+    
+}
+.webdesign__left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.webdesign__left p{
+    color: $primaryTan;
+    width: 570px;
+}
+
+.webdesign__right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.webdesign__right h3{
+    background: $primaryTan;
+    color: $primaryGreen;
+    padding: 25px;
+    width: 364px;
+}
+
+.webdesign__right .button{
+    color: $primaryGreen;
+    background: $secondaryGreen;
+    padding: 15px;
+    display: flex;
+    width: 380px;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.2rem solid $secondaryGreen;
+}
+.webdesign__right .button:hover{
+    color: $secondaryGreen;
+    background: $primaryGreen;
+    border: 0.2rem solid $secondaryGreen;
+    transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
+
+}
+@media screen and (max-width:1350px) {
+    .webdesign h2{
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width:1200px){
+    .webdesign{
+        flex-direction:column;
+        gap: 50px;
+        align-items: center;
+    }
+    .webdesign__left{
+        align-items: center;
+    }
+    .webdesign__left p{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1100px) {
+    .webdesign{
+        padding: 100px 40px 100px 40px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .webdesign{
+        padding: 100px 25px 100px 25px;
+    }
+}
