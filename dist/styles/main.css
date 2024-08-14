@@ -432,6 +432,7 @@ footer {
 }
 
 .infos a {
+  text-decoration: underline;
   color: #FEF6E5;
 }
 
