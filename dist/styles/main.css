@@ -419,6 +419,7 @@ footer {
   display: flex;
   justify-content: space-between;
   border-bottom: solid 5px #C8E18C;
+  margin-top: -2px;
 }
 
 .infos {
@@ -474,7 +475,6 @@ footer h3 {
   display: flex;
   align-items: end;
   justify-content: center;
-  margin-bottom: -1px;
 }
 
 .cv a {
