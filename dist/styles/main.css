@@ -415,7 +415,7 @@ p {
 footer {
   background: #3F4926;
   color: #FEF6E5;
-  padding: 100px 100px 100px 100px;
+  padding: 50px 100px 100px 100px;
   display: flex;
   justify-content: space-between;
   border-bottom: solid 5px #C8E18C;
@@ -455,7 +455,7 @@ footer h3 {
 
 @media screen and (max-width: 1100px) {
   footer {
-    padding: 100px 40px 100px 40px;
+    padding: 50px 40px 100px 40px;
   }
 }
 @media screen and (max-width: 960px) {
@@ -465,6 +465,28 @@ footer h3 {
 }
 @media screen and (max-width: 640px) {
   footer {
-    padding: 100px 25px 100px 25px;
+    padding: 50px 25px 100px 25px;
   }
+}
+.cv {
+  padding-top: 50px;
+  background: #3F4926;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.cv a {
+  text-decoration: none;
+  color: #3F4926;
+  background: #C8E18C;
+  padding: 10px;
+  border: 0.2rem solid #C8E18C;
+}
+
+.cv a:hover {
+  color: #C8E18C;
+  background: #3F4926;
+  border: 0.2rem solid #C8E18C;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
 }/*# sourceMappingURL=main.css.map */
